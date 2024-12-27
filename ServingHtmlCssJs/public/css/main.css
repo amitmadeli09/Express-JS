@@ -1,0 +1,57 @@
+body {
+    font-family: sans-serif;
+    padding: 0;
+    margin: 0;
+    height: 100vh; /* Ensures full view height */
+    display: flex; /* Flexbox for centering */
+    justify-content: center; /* Centers horizontally */
+    align-items: center; /* Centers vertically */
+    background-image: url("https://static.vecteezy.com/system/resources/thumbnails/002/204/194/small_2x/technology-background-design-in-white-color-free-vector.jpg");
+    background-size: cover; /* Ensures the image covers the entire background */
+    background-repeat: no-repeat; /* Avoids tiling */
+    background-position: center; /* Centers the image */
+}
+
+.container {
+    background-color: white;
+    padding: 2rem;
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2); /* Adds a shadow for better visibility */
+    max-width: 400px;
+    width: 90%; /* Makes it responsive */
+}
+
+.main-header {
+    height: 3.5rem;
+    width: 100%;
+    padding: 0 1.5rem;
+}
+
+.main-header_nav {
+    align-items: center;
+    display: flex;
+    height: 100%;
+}
+
+.main-header_item-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+.main-header_item {
+    margin: 0 0.5rem;
+    padding: 0;
+}
+
+.main-header_item a {
+    text-decoration: none;
+    color: black;
+}
+
+.main-header_item a:hover,
+.main-header_item a:active,
+.main-header_item a.active {
+    color: blue;
+}

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book a Call</title>
+    <link rel="stylesheet" href="/css/main.css"> 
+</head>
+<body>
+    <div class="background">
+        <header class="main-header">
+            <nav class="main-header_nav">
+                <ul class="main-header_item-list">
+                    <li class="main-header_item"><a href="/home">Sharpener</a></li>
+                    <li class="main-header_item"><a href="/home">Home</a></li>
+                    <li class="main-header_item"><a href="/courses">Courses</a></li>
+                    <li class="main-header_item"><a href="hire-with-us">Hire with us</a></li>
+                    <li class="main-header_item"><a href="/price">Prices</a></li>
+                    <li class="main-header_item"><a href="/contactus">Contact Us</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+            <div class="container">
+                <h1>Book a Call</h1>
+                <p>Book a call slot and our representative will call you within 1 hour of the selected time.</p>
+                <form action="/home" method="POST">
+                    <label for="name">Name:</label>
+                    <input type="text" title="name" id="name" name="name" required><br><br>
+                    <label for="email">Email:</label>
+                    <input type="email" title="email" id="email" name="email" required><br><br>
+                    <label for="phone">Phone:</label>
+                    <input type="tel" title="phone" id="phone" name="phone" required><br><br>
+                    <label for="time">Time for Call:</label>
+                    <input type="date" id="date" name="date" required>
+                    <input type="time" id="time" name="time" required><br><br>
+                    <button type="submit">Get a Call</button>
+                </form>
+            </div>
+        </main>
+        
+    </div>
+</body>
+</html>
